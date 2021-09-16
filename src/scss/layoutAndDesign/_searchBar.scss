@@ -1,0 +1,37 @@
+.seatingContainer {
+    	display: flex;
+    	justify-content: flex-start;
+    	flex-wrap: wrap;
+    	gap: 1em;
+    	.seat {
+    		text-align: center;
+    		flex-basis: 0;
+    		padding: 1em;
+    	}
+    	.unavailable {
+    		background-color: darkred;
+    	}
+    	.free {
+    		background-color: lightgreen;
+    	}
+    	.booked {
+    		animation: blinker 1s linear infinite;
+    	}
+    }
+    .fakeHyperlink {
+    	cursor: pointer;
+    	color: blue;
+    	text-decoration: underline;
+    }
+    @keyframes blinker {
+    	0% {
+    		background-color: lightyellow;
+    	}
+    	100% {
+    		background-color: yellow;
+    	}
+    }
+
+    // ** Remove this over....
+
+    

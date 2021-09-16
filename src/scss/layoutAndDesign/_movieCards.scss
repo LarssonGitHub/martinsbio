@@ -1,0 +1,79 @@
+// .listingContainer {
+//     display: grid;
+//     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+//     gap: 1rem;
+//     .movieCard {
+//         position: relative;
+//         background-color: red;
+//         .greyedOut {
+//             position: absolute;
+//             top: 0;
+//             left: 0;
+//             min-width: 100%;
+//             min-height: 100%;
+//             background-color: $backgroundColor;
+//             opacity: 0.9;
+//         }
+//         .movieCardImg {
+//             width: 100%;
+//             // height: 400px;
+//             // object-fit: cover;
+//         }
+//         .movieCardDesc {
+
+//         }
+//     }
+// }
+
+.listingContainer {
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    .movieCard {
+        position: relative;
+        overflow: hidden;
+        .greyedOut {
+            position: absolute;
+            top: 0;
+            left: 0;
+            min-width: 100%;
+            min-height: 100%;
+            background-color: $backgroundColor;
+            opacity: 0.9;
+        }
+        .movieCardImg {
+            width: 100%;
+            // height: 100%;
+            // object-fit: cover;
+        }
+        .movieCardDesc {
+            position: absolute;
+            top: -100%;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            padding: 0 1rem;
+        }
+    }
+    .movieCard:hover {
+        .movieCardDesc {
+            transition: top 0.5s ease;
+            top: 0;
+            left: 0;
+            z-index: 1;
+            background-image: linear-gradient(to top, rgba(0,0,0,0), $secondaryContainerColor);
+        }
+    }
+}
+
+$breakpoint-medium: 992px;
+@media screen and (min-width: $breakpoint-medium) {
+    .listingContainer {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+}
+
+$breakpoint-medium: 1300px;
+@media screen and (min-width: $breakpoint-medium) {}

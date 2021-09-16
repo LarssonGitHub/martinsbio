@@ -1,0 +1,186 @@
+[
+        {
+            "id": 1,
+            "movieName": "Pokemon The First Movie",
+            "runtime": "90min",
+            "img": "./assets/pokemon_poster.jpeg",
+            "date": "2021-09-09",
+            "time": "16:00",
+            "seats": [true,true,true,false,false,false,true,true,true,true,true,true,true,true]
+        },{
+            "id": 2,
+            "movieName": "Pokemon The First Movie",
+            "runtime": "90min",
+            "img": "./assets/pokemon_poster.jpeg",
+            "date": "2021-09-09",
+            "time": "12:30",
+            "seats": [true,true,true,false,false,false,true,true,true,true,true,true,true,true]
+        },{
+            "id": 3,
+            "movieName": "Pokemon The First Movie",
+            "runtime": "90min",
+            "img": "./assets/pokemon_poster.jpeg",
+            "date": "2021-09-08",
+            "time": "16:00",
+            "seats": [true,true,true,false,false,false,true,true,true,true,true,true,true,true]
+        },
+        {
+            "id": 4,
+            "movieName": "Castle in the sky",
+            "runtime": "85min",
+            "img": "./assets/Castle_in_the_Sky.jpeg",
+            "date": "2021-09-08",
+            "time": "13:30",
+            "seats": [false,false,false,false,false,false,false,false,false,false,false,false,false,false]
+        },
+        {
+            "id": 5,
+            "movieName": "The shit movie",
+            "runtime": "Too long",
+            "img": "./assets/shit_movie.jpeg",
+            "date": "2021-09-10",
+            "time": "14:00",
+            "seats": [true,true,false,false,false,false,false,false,false,false,false,false,false,false]
+        },
+        {
+            "id": 6,
+            "movieName": "Forest Gump",
+            "runtime": "20min",
+            "img": "",
+            "date": "2021-09-10",
+            "time": "14:00",
+            "seats": [true,true,true,false,false,false,true,true,true,true,true,true,true,true]
+        },
+        {"id": 7,
+            "movieName": "Pokemon The First Movie",
+            "runtime": "90min",
+            "img": "./assets/pokemon_poster.jpeg",
+            "date": "2021-09-13",
+            "time": "15:00",
+            "seats": [true,true,true,false,false,false,true,true,true,true,true,true,true,true]
+        },
+        {
+            "id": 8,
+            "movieName": "Castle in the sky",
+            "runtime": "85min",
+            "img": "./assets/Castle_in_the_Sky.jpeg",
+            "date": "2021-09-09",
+            "time": "15:00",
+            "seats": [false,false,false,false,false,false,false,false,false,false,false,false,false,false]
+        },
+        {
+            "id": 9,
+            "movieName": "Die hard",
+            "runtime": "120min",
+            "img": "./assets/die_hard.jpeg",
+            "date": "2021-09-11",
+            "time": "09:10",
+            "seats": [false,false,false,false,false,false,true,true,true,true,true,true,true,true]
+        },{
+            "id": 10,
+            "movieName": "Die hard",
+            "runtime": "120min",
+            "img": "./assets/die_hard.jpeg",
+            "date": "2021-09-09",
+            "time": "12:20",
+            "seats": [false,false,false,false,false,false,true,true,true,true,true,true,true,true]
+        },{
+            "id": 11,
+            "movieName": "Die hard",
+            "runtime": "120min",
+            "img": "./assets/die_hard.jpeg",
+            "date": "2021-09-07",
+            "time": "12:20",
+            "seats": [false,false,false,false,false,false,true,true,true,true,true,true,true,true]
+        },{
+            "id": 12,
+            "movieName": "Die hard",
+            "runtime": "120min",
+            "img": "./assets/die_hard.jpeg",
+            "date": "2021-09-15",
+            "time": "12:20",
+            "seats": [false,false,false,false,false,false,true,true,true,true,true,true,true,true]
+        },{
+            "id": 13,
+            "movieName": "Die hard",
+            "runtime": "120min",
+            "img": "./assets/die_hard.jpeg",
+            "date": "2021-09-07",
+            "time": "19:00",
+            "seats": [false,false,false,false,false,false,true,true,true,true,true,true,true,true]
+        },{
+            "id": 14,
+            "movieName": "Castle in the sky",
+            "runtime": "85min",
+            "img": "./assets/Castle_in_the_Sky.jpeg",
+            "date": "2021-09-10",
+            "time": "10:00",
+            "seats": [false,false,false,false,false,false,true,true,true,true,true,true,true,true]
+        },{
+            "id": 15,
+            "movieName": "Castle in the sky",
+            "runtime": "85min",
+            "img": "./assets/Castle_in_the_Sky.jpeg",
+            "date": "2021-09-18",
+            "time": "20:30",
+            "seats": [false,true,true,true,false,false,true,true,true,true,true,true,true,true]
+        },{
+            "id": 16,
+            "movieName": "The shit movie",
+            "runtime": "Too long",
+            "img": "./assets/shit_movie.jpeg",
+            "date": "2021-09-20",
+            "time": "20:30",
+            "seats": [false,false,true,false,false,false,true,true,true,true,true,true,true,true]
+        },{
+            "id": 17,
+            "movieName": "The shit movie",
+            "runtime": "Too long",
+            "img": "./assets/shit_movie.jpeg",
+            "date": "2021-09-17",
+            "time": "11:30",
+            "seats": [false,false,true,false,false,false,true,true,true,true,true,true,true,true]
+        },{
+            "id": 19,
+            "movieName": "The shit movie",
+            "runtime": "Too long",
+            "img": "./assets/shit_movie.jpeg",
+            "date": "2021-09-21",
+            "time": "11:30",
+            "seats": [false,false,false,false,false,false,true,true,true,true,true,true,true,true]
+        }
+        ,{
+            "id": 20,
+            "movieName": "The shit movie",
+            "runtime": "Too long",
+            "img": "./assets/shit_movie.jpeg",
+            "date": "2021-09-17",
+            "time": "11:30",
+            "seats": [false,false,true,true,true,true,true,true,true,true,true,true,true,true]
+        },
+        {
+            "id": 22,
+            "movieName": "Forest Gump",
+            "runtime": "20min",
+            "img": "",
+            "date": "2021-09-14",
+            "time": "20:00",
+            "seats": [true,true,true,false,false,false,true,true,true,true,true,true,true,true]
+        },        {
+            "id": 23,
+            "movieName": "Forest Gump",
+            "runtime": "20min",
+            "img": "",
+            "date": "2021-09-13",
+            "time": "06:00",
+            "seats": [true,true,true,false,false,false,true,true,true,true,true,true,true,true]
+        },        {
+            "id": 24,
+            "movieName": "Forest Gump",
+            "runtime": "20min",
+            "img": "",
+            "date": "2021-09-16",
+            "time": "19:00",
+            "seats": [true,true,true,false,false,false,true,true,true,true,true,true,true,true]
+        }
+    ]

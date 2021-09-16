@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/martinsbio/static/css/main.52f04436.chunk.css",
+    "main.js": "/martinsbio/static/js/main.9c0c36ac.chunk.js",
+    "main.js.map": "/martinsbio/static/js/main.9c0c36ac.chunk.js.map",
+    "runtime-main.js": "/martinsbio/static/js/runtime-main.f254d01e.js",
+    "runtime-main.js.map": "/martinsbio/static/js/runtime-main.f254d01e.js.map",
+    "static/js/2.e0b39e1e.chunk.js": "/martinsbio/static/js/2.e0b39e1e.chunk.js",
+    "static/js/2.e0b39e1e.chunk.js.map": "/martinsbio/static/js/2.e0b39e1e.chunk.js.map",
+    "static/js/3.955cf823.chunk.js": "/martinsbio/static/js/3.955cf823.chunk.js",
+    "static/js/3.955cf823.chunk.js.map": "/martinsbio/static/js/3.955cf823.chunk.js.map",
+    "index.html": "/martinsbio/index.html",
+    "static/css/main.52f04436.chunk.css.map": "/martinsbio/static/css/main.52f04436.chunk.css.map",
+    "static/js/2.e0b39e1e.chunk.js.LICENSE.txt": "/martinsbio/static/js/2.e0b39e1e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f254d01e.js",
+    "static/js/2.e0b39e1e.chunk.js",
+    "static/css/main.52f04436.chunk.css",
+    "static/js/main.9c0c36ac.chunk.js"
+  ]
+}

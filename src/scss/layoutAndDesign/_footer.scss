@@ -1,0 +1,45 @@
+footer {
+    @include gradientBackgroundColor($primaryContainerColor, $secondaryContainerColor, right);
+        .footerContainer {
+            padding: 1.5rem 0.5rem;
+            .footerContacts {
+                text-align: start;
+                padding: 0 1rem;
+            }
+            .footerClock {
+                text-align: start;
+                flex: 1;
+                border-top: solid 1px;
+                padding: 0 1rem;
+            }
+        }
+        .copyright {
+            text-align: center;
+        }
+    }
+
+ 
+
+
+
+
+
+
+$breakpoint-xs: 576px;
+@media screen and (min-width: $breakpoint-xs) {
+    footer {
+        .footerContainer {
+            display: flex;
+            gap: 1rem;
+            .footerContacts {
+                flex: 0 1 60%;
+            }
+            .footerClock {
+                flex: 1;
+                border-top: initial;
+                border-left: solid 1px;
+                padding: 0 1rem;
+            }
+        }
+    }     
+}
